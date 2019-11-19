@@ -17,9 +17,9 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//@ExtendWith(SpringExtension.class)
-//@SpringBootTest(classes = SpringJpaApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
-//@ContextConfiguration(classes = CustomerRepositoryPopulation.class)
+@ExtendWith(SpringExtension.class)
+@SpringBootTest(classes = SpringJpaApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
+@ContextConfiguration(classes = CustomerRepositoryPopulation.class)
 public class CustomerRepositoryTest {
 
 	@Autowired
